@@ -12,6 +12,7 @@
 		3064E2321AA4562F009E506C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3064E2311AA4562F009E506C /* Images.xcassets */; };
 		3064E2351AA4562F009E506C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3064E2331AA4562F009E506C /* MainMenu.xib */; };
 		3064E2411AA45630009E506C /* NSOutlineViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3064E2401AA45630009E506C /* NSOutlineViewDemoTests.m */; };
+		3089DBFC1AA597BA00150BC7 /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 3089DBFB1AA597BA00150BC7 /* Staff.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		3064E23A1AA45630009E506C /* NSOutlineViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOutlineViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3064E23F1AA45630009E506C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3064E2401AA45630009E506C /* NSOutlineViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOutlineViewDemoTests.m; sourceTree = "<group>"; };
+		3089DBFA1AA597BA00150BC7 /* Staff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Staff.h; sourceTree = "<group>"; };
+		3089DBFB1AA597BA00150BC7 /* Staff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Staff.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				3064E22C1AA4562F009E506C /* AppDelegate.h */,
 				3064E22D1AA4562F009E506C /* AppDelegate.m */,
+				3089DBFA1AA597BA00150BC7 /* Staff.h */,
+				3089DBFB1AA597BA00150BC7 /* Staff.m */,
 				3064E2311AA4562F009E506C /* Images.xcassets */,
 				3064E2331AA4562F009E506C /* MainMenu.xib */,
 				3064E22A1AA4562F009E506C /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3089DBFC1AA597BA00150BC7 /* Staff.m in Sources */,
 				3064E2301AA4562F009E506C /* main.m in Sources */,
 				3064E22E1AA4562F009E506C /* AppDelegate.m in Sources */,
 			);
@@ -398,6 +404,7 @@
 				3064E2461AA45630009E506C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3064E2471AA45630009E506C /* Build configuration list for PBXNativeTarget "NSOutlineViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +413,7 @@
 				3064E2491AA45630009E506C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
